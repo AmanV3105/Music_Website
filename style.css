@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Edu+SA+Beginner:wght@700&family=Edu+TAS+Beginner:wght@600&family=Indie+Flower&family=Mouse+Memoirs&family=Pacifico&family=Poppins:wght@100&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Pacifico', cursive;
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    height: 65px;
+    align-items: center;
+}
+
+.brand img {
+    width: 67px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+nav ul li {
+    padding: 0px 27px;
+}
+.container{
+    min-height:70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width:70%;
+    margin:23px auto;
+    border-radius:12px;
+    padding:34px;
+    background-image: url('bg.webp');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 1112px 590px;
+}
+.bottom {
+    position:sticky;
+    height:100px;
+    background-color: black;
+    bottom:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 21px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressbar{
+    width:80vw;
+    text-align:center;
+    cursor:pointer;
+}
+.songItem{
+    height:50px;
+    display:flex;
+    background-color:white;
+    /* width:80%; */
+    color:black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 13px;
+}
+.songItem img{
+    width: 47px;
+    margin: 0px 14px;
+    border-radius: 37px;
+}
+.timestamp{
+    margin:0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 74px;
+}
+.songInfo{
+    position:absolute;
+    left:10vw;
+    
+}
+.songInfo img{
+    opacity:0;
+    transition:opacity 0.4s ease-in;
+}
